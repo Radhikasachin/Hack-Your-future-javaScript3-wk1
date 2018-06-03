@@ -1,1 +1,45 @@
 
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>HYF-JS3 Week 2 Homework</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.0/css/bootstrap.css">
+</head>
+<body>
+    <main>
+       
+        <div>
+            <h1>Homework Week 2</h1>
+            <h2>Search for HackYourFuture Repositories</h2>
+            <form class="form-inline my-2 my-lg-0">
+                <input type="text" name="user-input" class="form-control user-input col-md-8 col-sm-8 mr-sm-2 mb-2" id="user-input">
+                <button id="btn" type="button" class="btn btn-outline-success col-md-3 col-sm-3 mb-2">Search HYF Repos</button>
+            </form>
+            <div class="row">
+                <div class="col mt-3 col-md-5">
+                    <ul id="items" class="list-group"></ul>
+                </div>
+                <div class="col mt-3 col-md-6">
+                    <h2 id="repo-name" class="text-center"></h2>
+                    <h5 id="title-contrib" class="text-center"></h5>
+                    <ul id="contributors"><li></li></ul>
+
+                </div>
+            </div>
+            <div id="json-response"></div>
+        </div>
+        <footer>&copy; Radhika Sonawane | HackYourFuture Class2</footer>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>
+
+
